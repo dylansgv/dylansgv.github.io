@@ -1,0 +1,98 @@
+html{
+    font-family: "Montserrat", sans-serif;
+  }
+body{
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+}
+header{
+    background-color: cadetblue;
+    color: blanchedalmond;
+    padding: 50px 300px;
+    text-align: center;
+}
+section article:hover {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+section article {
+    background-color: rgb(214, 192, 165);
+   width: 400px;
+   margin: 0 auto;
+   padding:20px 150px;
+   text-align: center;
+}
+div h2,div h3{
+    color: black;
+    margin: 10px 20px 10px 100px;
+    text-align: left;
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+* {
+    font-size: 24px;
+}
+.foto {
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: rgb(102, 95, 85);
+    border-style: solid;
+}
+#final {
+    text-align: center;
+    width: 500px;
+    margin:  10px auto;
+}
+ul {
+    color: rgb(0, 0, 0);
+    list-style-type: square;
+    padding-left: 0%;
+}
+table{
+    width: 50%;
+    background-color: rgba(138, 196, 121, 0.842);
+    border: 5px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    border: 5px solid black;
+    padding: 20px;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid black;
+    text-align: center;
+    padding: 50px;
+}
+tr:hover{
+    background-color: rgb(214, 206, 88);
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(60, 94, 156);
+    color: beige;
+    padding: 35px 15px;
+}
+footer div{
+    display: inline;
+    float: right;
+}
+footer section{
+    display: inline;
+    float: left bottom;
+}
+footer a{
+    color:beige ;
+    text-decoration: none;
+}
+footer a:hover{
+    transition: color 0.4s ease;
+    color: rgb(0, 0, 0);
+}
